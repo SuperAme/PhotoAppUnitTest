@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C2EFC0D27597F9200046838 /* SignupFormModelValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2EFC0C27597F9200046838 /* SignupFormModelValidatorTests.swift */; };
+		9C2EFC0F2759804900046838 /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2EFC0E2759804900046838 /* SignupFormModelValidator.swift */; };
+		9C2EFC11275984E300046838 /* SignupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2EFC10275984E300046838 /* SignupConstants.swift */; };
 		9CEE00612758607F00AB53AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE00602758607F00AB53AA /* AppDelegate.swift */; };
 		9CEE00632758607F00AB53AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE00622758607F00AB53AA /* SceneDelegate.swift */; };
 		9CEE00652758607F00AB53AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE00642758607F00AB53AA /* ViewController.swift */; };
 		9CEE00682758607F00AB53AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEE00662758607F00AB53AA /* Main.storyboard */; };
 		9CEE006A2758608000AB53AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CEE00692758608000AB53AA /* Assets.xcassets */; };
 		9CEE006D2758608000AB53AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEE006B2758608000AB53AA /* LaunchScreen.storyboard */; };
-		9CEE007B275860D000AB53AA /* PhotoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE007A275860D000AB53AA /* PhotoAppTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C2EFC0C27597F9200046838 /* SignupFormModelValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidatorTests.swift; sourceTree = "<group>"; };
+		9C2EFC0E2759804900046838 /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
+		9C2EFC10275984E300046838 /* SignupConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupConstants.swift; sourceTree = "<group>"; };
 		9CEE005D2758607F00AB53AA /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEE00602758607F00AB53AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CEE00622758607F00AB53AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +41,6 @@
 		9CEE006C2758608000AB53AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CEE006E2758608000AB53AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CEE0078275860D000AB53AA /* PhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CEE007A275860D000AB53AA /* PhotoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				9CEE00692758608000AB53AA /* Assets.xcassets */,
 				9CEE006B2758608000AB53AA /* LaunchScreen.storyboard */,
 				9CEE006E2758608000AB53AA /* Info.plist */,
+				9C2EFC0E2759804900046838 /* SignupFormModelValidator.swift */,
+				9C2EFC10275984E300046838 /* SignupConstants.swift */,
 			);
 			path = PhotoApp;
 			sourceTree = "<group>";
@@ -92,7 +98,7 @@
 		9CEE0079275860D000AB53AA /* PhotoAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				9CEE007A275860D000AB53AA /* PhotoAppTests.swift */,
+				9C2EFC0C27597F9200046838 /* SignupFormModelValidatorTests.swift */,
 			);
 			path = PhotoAppTests;
 			sourceTree = "<group>";
@@ -150,6 +156,7 @@
 					};
 					9CEE0077275860D000AB53AA = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 						TestTargetID = 9CEE005C2758607F00AB53AA;
 					};
 				};
@@ -200,6 +207,8 @@
 			files = (
 				9CEE00652758607F00AB53AA /* ViewController.swift in Sources */,
 				9CEE00612758607F00AB53AA /* AppDelegate.swift in Sources */,
+				9C2EFC0F2759804900046838 /* SignupFormModelValidator.swift in Sources */,
+				9C2EFC11275984E300046838 /* SignupConstants.swift in Sources */,
 				9CEE00632758607F00AB53AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,7 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CEE007B275860D000AB53AA /* PhotoAppTests.swift in Sources */,
+				9C2EFC0D27597F9200046838 /* SignupFormModelValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -428,6 +438,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PhotoApp.PhotoAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoApp.app/PhotoApp";
@@ -438,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
